@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*--------------------*/
 header {
-  background: url(/img/bg-header.jpg) 50%/cover no-repeat;
+  background: url(img/bg-header.jpg) 50%/cover no-repeat;
   display: flex;
   flex-direction: column;
 }
