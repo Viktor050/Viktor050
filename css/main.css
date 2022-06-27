@@ -295,7 +295,7 @@ header {
 @media (max-width: 767px) {
   .header-fullscreen__content-image img {
     top: 70px;
-    left: calc(5px + 395 * (100vw - 320px) / 448);
+    left: calc(0px + 395 * (100vw - 320px) / 448);
   }
 
   .header-fullscreen-main__model {
