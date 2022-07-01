@@ -34,3 +34,18 @@ if (isMobile.any) {
 		menuBurger.classList.toggle('_active');
 	});
 }
+
+
+
+
+const swiper = new Swiper('.swiper', {
+	// navigation: {
+	// 	prevEl: '.swiper-button-prev',
+	// 	nextEl: '.swiper-button-next',
+	// },
+	pagination: {
+		el: '.swiper-pagination',
+		clickable: true,
+		dynamicBullets: true,
+	},
+});
